@@ -1,0 +1,319 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  /* Global */
+  /* start footer-heading */
+
+/* @media only screen and (min-width: 820px) and (max-width:1180px){
+  .head.photo{
+    height: 400px;
+  }
+} */
+
+
+
+  section {
+    height: auto;
+    width: 100%;
+}
+.container{
+    height: auto;
+    position: sticky;
+}
+
+.card-alt .img-fluid {
+    height: 11rem;
+
+}
+
+.card-alt .col-lg-2 {
+    width: 20%;
+}
+
+.card-alt .bg-image {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+.card-alt .heart {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 25px;
+    height: 30px;
+    background-color: rgb(169, 171, 173);
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.card-alt .discount {
+    position: absolute;
+    top: 80%;
+    right: 10px;
+    color: #3e9c7c;
+    background-color: aquamarine;
+    padding: 2px 3%;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.card-alt .card-title {
+    font-size: 25px;
+
+}
+
+.card-alt .card-body {
+    text-indent: 10px;
+}
+
+.card-alt form,
+label {
+    margin: 0;
+    padding: 0;
+}
+
+.card-alt body {
+    margin: 20px;
+}
+
+
+
+.card-alt .btn {
+    letter-spacing: 2px;
+    font-size: 17px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 38px;
+    width: 100%;
+}
+
+.card-alt .btn-special {
+    border: 1px solid #636363;
+    color: #888888 !important;
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .card-alt .col-xl-2{
+        width: 25%;
+    }
+    .card-alt .card-title {
+        font-size: 20px!important;
+    }
+    
+    .card-alt .card{
+        margin-top:40px ;
+        margin-right: 5%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .card-alt .col-xl-2{
+        width: 30%;
+    }
+    .card-alt .card{
+        margin-top:40px ;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .card-alt .col-xl-2{
+        width: 35%;
+    }
+    .card-alt .card{
+        margin-top:40px ;
+    }
+    
+}
+@media only screen and (min-width: 400px) and (max-width: 576px){
+    .card-alt .col-xl-2{
+        width: 50%;
+    }
+    .card-alt .card{
+        margin-top:40px ;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+}
+@media only screen and (min-width: 280px) and (max-width: 400px){
+    .card-alt .col-xl-2{
+        width: 50%;
+    }
+    .card-alt .card-title {
+        font-size: 16px!important;
+    }
+    .card-alt .card{
+        margin-top:40px ;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+}
+@media only screen and (min-width: 100px) and (max-width: 280px){
+    .card-alt .col-xl-2{
+        width: 100%;
+    }
+    .card-alt .card-title {
+        font-size: 20px!important;
+    }
+    .card-alt .card{
+        margin-top:40px ;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+}
+
+
+/* ##################################################################### */
+/* ##################################################################### */
+
+
+
+  .footer-heading {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+  }
+  
+  .Providers {
+    font-size: 40px;
+    font-weight: normal;
+  }
+  
+  .Service {
+    text-decoration: none;
+    color: #95adff;
+  }
+  
+  /* end footer-heading */
+  /* start images section */
+  .imgs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 40px;
+    padding: 0 100px;
+  }
+  
+  .imgs .img {
+    background-image: url("../images/2.png");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .imgs .img::before {
+    content: "Hala Makeup Artist";
+    position: absolute;
+    bottom: 15px;
+    left: calc(2.5%);
+    text-align: center;
+    width: 95%;
+    background-color: #cce3d9;
+    padding: 8px 0;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  
+  /* end images section */
+  /* start footer */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* start info section */
+  .footer .info {
+    width: 50%;
+    margin: 50px;
+    margin-right: 0;
+  }
+  
+  .footer .info p {
+    color: rgba(0, 0, 0, 0.434);
+    max-width: 80%;
+    font-size: 18px;
+    line-height: 1.7;
+  }
+  /* end info section */
+  /* start contact-us section */
+  .footer .info .email {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer .info .email .mail-logo {
+    background-color: #feefe6;
+    margin-right: 20px;
+    border-radius: 50%;
+    min-width: 50px;
+    height: 50px;
+    position: relative;
+  }
+  
+  .footer .info .email .mail-logo img {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .footer .info .email .mail h3 {
+    margin: 0;
+    color: #ce5c60;
+  }
+  
+  .footer .info .email .mail p {
+    margin: 0;
+  }
+  
+  /* end contact-us section */
+  /* start links section */
+  .footer .links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .footer .links .list h3 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 6px;
+  }
+  
+  .footer .links .list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer .links .list li {
+    margin-bottom: 8px;
+    color: rgba(0, 0, 0, 0.434);
+  }
+  /* end links section */
+  /* end footer */
+  /* start copyrights */
+  .copyright {
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.434);
+  }
+  /* end copyrights */
